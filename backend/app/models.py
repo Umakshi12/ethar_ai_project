@@ -5,7 +5,7 @@ from enum import Enum
 from sqlalchemy import Column, Date, Enum as SQLEnum, ForeignKey, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from .database import Base
+from app.database import Base
 
 
 class AttendanceStatus(str, Enum):

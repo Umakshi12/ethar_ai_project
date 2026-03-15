@@ -8,9 +8,9 @@ from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy import and_, func, select
 from sqlalchemy.orm import Session
 
-from ..database import get_db
-from ..models import Attendance, AttendanceStatus, Employee
-from ..schemas import (
+from app.database import get_db
+from app.models import Attendance, AttendanceStatus, Employee
+from app.schemas import (
     AttendanceCreate,
     AttendanceResponse,
     AttendanceSummary,

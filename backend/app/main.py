@@ -10,11 +10,11 @@ from sqlalchemy import distinct, func, select
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
 
-from .database import Base, engine, get_db
-from .models import Attendance, AttendanceStatus, Employee
-from .routers import attendance as attendance_router
-from .routers import employees as employees_router
-from .schemas import DashboardSummary
+from app.database import Base, engine, get_db
+from app.models import Attendance, AttendanceStatus, Employee
+from app.routers import attendance as attendance_router
+from app.routers import employees as employees_router
+from app.schemas import DashboardSummary
 
 import logging
 

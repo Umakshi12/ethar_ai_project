@@ -6,9 +6,9 @@ from fastapi import APIRouter, Depends, HTTPException, Response, status
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
-from ..database import get_db
-from ..models import Attendance, AttendanceStatus, Employee
-from ..schemas import EmployeeCreate, EmployeeResponse
+from app.database import get_db
+from app.models import Attendance, AttendanceStatus, Employee
+from app.schemas import EmployeeCreate, EmployeeResponse
 
 router = APIRouter(prefix="/employees", tags=["employees"])
 
