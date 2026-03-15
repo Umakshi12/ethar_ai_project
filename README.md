@@ -3,9 +3,9 @@
 A professional, full-stack HR management tool built for the **Full-Stack Coding Assignment**. This application allows administrators to manage employee records and track daily attendance with a clean, production-ready interface.
 
 ## 🚀 Live Demo & Repository
-- **Live Frontend:** [Link to your Vercel/Netlify Deployment]
-- **Backend API:** [Link to your Render/Railway Deployment]
-- **GitHub Repository:** [Link to your GitHub Repo]
+- **Live Frontend:** https://ethar-ai-project.vercel.app
+- **Backend API:** https://ethar-ai-project.onrender.com
+- **GitHub Repository:** https://github.com/Umakshi12/ethar_ai_project
 
 ---
 ---
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 ```
 Create a `.env` file in the `backend/` directory:
 ```env
-DATABASE_URL=postgresql://user:password@localhost:5432/db_name
+DATABASE_URL=postgresql://user:password@localhost:5432/db_name [postgresql://postgres:uMa23ksh34i@db.tafktywintxnitabqdqw.supabase.co:5432/postgres]
 ALLOWED_ORIGINS=http://localhost:5173
 ```
 Run the server:
@@ -136,4 +136,4 @@ npm run dev
 
 
 ## 🤝 Contact
-Developed by **[Your Name]** as part of a Full-Stack Coding Assignment.
+Developed by **Umakshi Sharma** as part of a Full-Stack Coding Assignment.
