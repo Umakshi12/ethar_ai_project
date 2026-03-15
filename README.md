@@ -101,7 +101,7 @@ pip install -r requirements.txt
 ```
 Create a `.env` file in the `backend/` directory:
 ```env
-DATABASE_URL=postgresql://user:password@localhost:5432/db_name [postgresql://postgres:uMa23ksh34i@db.tafktywintxnitabqdqw.supabase.co:5432/postgres]
+DATABASE_URL=postgresql://user:password@localhost:5432/db_name
 ALLOWED_ORIGINS=http://localhost:5173
 ```
 Run the server:
